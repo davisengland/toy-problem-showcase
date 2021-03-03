@@ -37,7 +37,7 @@ class FilterObject extends Component {
                 newArr.push(this.state.founders[i])
             }
         }
-        this.setState({filteredArray: newArr, })
+        this.setState({filteredArray: newArr})
     }
 
     render() {
